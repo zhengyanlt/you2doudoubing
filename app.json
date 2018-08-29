@@ -1,16 +1,16 @@
 {
-  "name": "suibianqi",
+  "name": "You2PHP",
   "description": "A free and open-source youtube video proxy script[Written in PHP]",
   "website": "https://you2php.github.io/",
   "repository": "https://github.com/You2php/you2php",
-  "success_url": "/index.php",
+  "success_url": "/install.php",
   "env":{
     "APIKEY":{
       "description": "Youtube API V3 KEY",
       "value": ""
     },
     "GJ_CODE":{
-      "description": "地区代码HK=>香港,TW=>台湾,JP=>日本,KR=>韩国,US=>美国,FR=>法国,UK=>英国,DE=>德国,IN=>印度"
+      "description": "地区代码HK=>香港,TW=>台湾,JP=>日本,KR=>韩国,US=>美国,FR=>法国,UK=>英国,DE=>德国,IN=>印度",
       "value": "US"
     },
     "SITE_NAME":{
