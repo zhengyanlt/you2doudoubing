@@ -1,4 +1,5 @@
 <?php
+$gl=(isset($_COOKIE['gl']) && $_COOKIE['gl'])?$_COOKIE['gl']:'HK';
 define('ROOT_PART', Root_part());
 define('APIKEY', getenv("APIKEY"));
 define('GJ_CODE', getenv("GJ_CODE"));
