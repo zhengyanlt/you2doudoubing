@@ -66,7 +66,7 @@ if($_GET['step'] =='4' && !empty($_GET)){
     }
     
 }
-if($_GET['step'] =='4' && isset($_GET['APIKEY']) && isset($_GET['GJ_CODE']) && isset($_GET['SITE_NAME']) && isset($_GET['TITLENAME']) && isset($_GET['EN2DEKEY']) && isset($_GET['EMAIL'])){
+if($_GET['step'] =='4' && isset($_GET['key']) && isset($_GET['gjcode']) && isset($_GET['title']) && isset($_GET['sname']) && isset($_GET['edkey']) && isset($_GET['email'])){
    
 $str='<?php'.PHP_EOL;
 @$str.='define(\'ROOT_PART\', Root_part());'.PHP_EOL;
@@ -155,7 +155,7 @@ case '2':
     </div>
     <div class="panel-body"><div class="xs12 xm6 xb6 padding">
     <video controls="controls" class="img-responsive">
-  <source src="./vs.php?vv=6umA6XNCl0g" type="video/mp4">
+  <source src="./vs.php?vv=6umA6XNCl0g&quality=360" type="video/mp4">
 你的浏览器已经严重过时！无法播放视频,请更换新一代HTML5浏览器
 </video>
 </div>
@@ -170,7 +170,7 @@ case '2':
 <hr />
 <div class="text-center">
     <button class="button bg-red padding-left margin-bottom" onclick="javascript:history.back(-1);">上一步</button>
-    <button class="button bg-red padding-left margin-bottom" onclick="window.location.href=\'install.php?step=4\'">继续</button>
+    <button class="button bg-red padding-left margin-bottom" onclick="window.location.href=\'install.php?step=3\'">继续</button>
 </div>';
   break;
 case '3':
@@ -185,23 +185,23 @@ case '3':
                 <input type="text" name="key" class="input" placeholder="AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c" />
                 
                 <label class="label font-b padding-small-top">国家代码</label>
-                <input type="text" class="input" name="gjcode" placeholder="JP" />
+                <input type="text" class="input" name="gjcode" placeholder="US" />
                 
                 <span class="padding-small-top">这个填一个ISO3166标准的国际代码，默认建议填HK,一般为两位英文字母（如 台湾=TW，日本=JP）长度为2位。所填国家需要Youtube支持（可以从Youtube页面位置列表中看到），切记不能填CN，填CN或其他不支持代码将导致程序报错。如果你不知道某个国家的代码请访问<a href="http://doc.chacuo.net/iso-3166-1" class="text-dot "target="_blank">http://doc.chacuo.net/iso-3166-1</a></span>
                 
                 <label class="label font-b padding-small-top">网站名字</label>
-                <input type="text" class="input"  name="title" placeholder="Title名称" />
+                <input type="text" class="input"  name="title" placeholder="大爷常来玩儿啊" />
                 
                 <label class="label font-b padding-small-top">站点名字</label>
-                <input type="text" class="input" name="sname" placeholder="页面上将显示这个名字" />
+                <input type="text" class="input" name="sname" placeholder="DouDouTube" />
                 
                 <label class="label font-b padding-small-top">加/解密密钥</label>
-                <input type="text" class="input" name="edkey" placeholder="用于加密解密url，请填写一些杂乱无序的字符串." />
+                <input type="text" class="input" name="edkey" placeholder="jldjfakdjafndkhjdasfe" />
                 
-                <span class="padding-small-top">这个乱填一个字符串就可以，不需要记下来，建议长度10位以上。推荐使用<a href="https://randomkeygen.com/" class="text-dot" target="_blank">在线随机生成</a></span>
+                <span class="padding-small-top">这个乱填一个字符串就可以，不需要记下来，建议长度10位以上。 </span>
                 
                 <label class="label font-b padding-small-top">你的邮箱</label>
-                <input type="text" class="input" name="email" placeholder="请务必认真填写真实有效的Email地址" />
+                <input type="text" class="input" name="email" placeholder="xiaofufua@protonmail.com" />
                 
                 <div class="text-center padding-top">
                     <button class="button bg-red padding-left margin-bottom" onclick="javascript:history.back(-1);">上一步</button>
