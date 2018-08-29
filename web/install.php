@@ -155,7 +155,7 @@ case '2':
     </div>
     <div class="panel-body"><div class="xs12 xm6 xb6 padding">
     <video controls="controls" class="img-responsive">
-  <source src="./vs.php?vv=60ItHLz5WEA&quality=360" type="video/mp4">
+  <source src="./vs.php?vv=6umA6XNCl0g" type="video/mp4">
 你的浏览器已经严重过时！无法播放视频,请更换新一代HTML5浏览器
 </video>
 </div>
@@ -170,7 +170,7 @@ case '2':
 <hr />
 <div class="text-center">
     <button class="button bg-red padding-left margin-bottom" onclick="javascript:history.back(-1);">上一步</button>
-    <button class="button bg-red padding-left margin-bottom" onclick="window.location.href=\'install.php?step=3\'">继续</button>
+    <button class="button bg-red padding-left margin-bottom" onclick="window.location.href=\'install.php?step=4\'">继续</button>
 </div>';
   break;
 case '3':
@@ -182,10 +182,10 @@ case '3':
             <form method="get">
              <input type="text" class="hidden" name="step" value="4" />
                 <label class="label font-b">Youtube API V3 KEY</label>
-                <input type="text" name="key" class="input" placeholder="KEY" />
+                <input type="text" name="key" class="input" placeholder="AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c" />
                 
                 <label class="label font-b padding-small-top">国家代码</label>
-                <input type="text" class="input" name="gjcode" placeholder="根据国家代码获取不同国家的热门视频" />
+                <input type="text" class="input" name="gjcode" placeholder="JP" />
                 
                 <span class="padding-small-top">这个填一个ISO3166标准的国际代码，默认建议填HK,一般为两位英文字母（如 台湾=TW，日本=JP）长度为2位。所填国家需要Youtube支持（可以从Youtube页面位置列表中看到），切记不能填CN，填CN或其他不支持代码将导致程序报错。如果你不知道某个国家的代码请访问<a href="http://doc.chacuo.net/iso-3166-1" class="text-dot "target="_blank">http://doc.chacuo.net/iso-3166-1</a></span>
                 
