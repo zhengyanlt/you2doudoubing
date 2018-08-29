@@ -1,7 +1,5 @@
-# YouTube Mirror
 
-**用于Ｈｅｒｏｋｕ以部署ＹｏｕＴｕｂｅ镜像站**
-**This project is just to deploy YouTube Mirror on HEROKU.**
+**用于Ｈｅｒｏｋｕ以部署ＹｏｕＴｕ
 
 提供现成的YouTube API：
 
@@ -14,11 +12,9 @@
 
 ![pH5t3D.png](https://s1.ax1x.com/2018/01/25/pH5t3D.png)
 
-> 2.修改web/.htpasswd，为网站加锁 https://you2php.github.io/doc/#credit
+> 2.[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-> 3.[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-> 4.安装和配置 https://you2php.github.io/doc/
+> 3.安装和配置 https://you2php.github.io/doc/
 
 ![image](https://user-images.githubusercontent.com/31188782/35389026-0b25d958-0211-11e8-92cf-53201231c061.png)
 
