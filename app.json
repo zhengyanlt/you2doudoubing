@@ -3,31 +3,7 @@
   "description": "A free and open-source youtube video proxy script[Written in PHP]",
   "website": "https://you2php.github.io/",
   "repository": "https://github.com/You2php/you2php",
-  "success_url": "/index.php",
+  "success_url": "/install.php",
   "env":{
-    "APIKEY":{
-      "description": "Youtube API V3 KEY",
-      "value": "AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c"
-    },
-    "GJ_CODE":{
-      "description": "地区代码HK=>香港,TW=>台湾,JP=>日本,KR=>韩国,US=>美国,FR=>法国,UK=>英国,DE=>德国,IN=>印度",
-      "value": "US"
-    },
-    "SITE_NAME":{
-      "description": "浏览器上面显示站点名字",
-      "value": "Doudoubing"
-    },
-    "TITLENAME":{
-      "description": "幼兔logo旁边的字",
-      "value": "DOUDOUtube"
-    },
-    "EN2DEKEY":{
-      "description": "加/解密密钥，随机字符串即可",
-      "value": "jdajhfgljfadhgjha"
-    },
-    "EMAIL":{
-      "description": "邮箱随意",
-      "value": "doudoubing@youtube.com"
-    }
   }
 }
