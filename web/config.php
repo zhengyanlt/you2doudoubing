@@ -1,9 +1,9 @@
 <?php
 define('ROOT_PART', Root_part());
-define('APIKEY', 'AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c');
-define('GJ_CODE', 'JP');
-define('SITE_NAME', 'YouTube');
-define('TITLENAME', 'YouTube Mirror');
-define('EN2DEKEY', 'licdhyyeshenjygjdjhdjgdjthfshtshshtakhgo664654624679576546246451&#12354;ngxjyfjydjgsjjydhthtsyrqyrhrskihllkujydjtagrhtshrakfjjydjgxun');
-define('EMAIL', 'fankui_bbs@yahoo.co.jp');
+define('APIKEY', getenv("APIKEY"));
+define('GJ_CODE', getenv("GJ_CODE"));
+define('SITE_NAME',getenv("SITE_NAME"));
+define('TITLENAME', getenv("TITLENAME"));
+define('EN2DEKEY',getenv("EN2DEKEY"));
+define('EMAIL', getenv("EMAIL"));
 ?>
