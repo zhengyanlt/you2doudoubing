@@ -66,7 +66,7 @@ if($_GET['step'] =='4' && !empty($_GET)){
     }
     
 }
-if($_GET['step'] =='4' && isset($_GET['key']) && isset($_GET['gjcode']) && isset($_GET['title']) && isset($_GET['sname']) && isset($_GET['edkey']) && isset($_GET['email'])){
+if($_GET['step'] =='4' && isset($_GET['APIKEY']) && isset($_GET['GJ_CODE']) && isset($_GET['SITE_NAME']) && isset($_GET['TITLENAME']) && isset($_GET['EN2DEKEY']) && isset($_GET['EMAIL'])){
    
 $str='<?php'.PHP_EOL;
 @$str.='define(\'ROOT_PART\', Root_part());'.PHP_EOL;
