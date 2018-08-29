@@ -1,9 +1,9 @@
 {
-  "name": "You2PHP",
+  "name": "suibianqi",
   "description": "A free and open-source youtube video proxy script[Written in PHP]",
   "website": "https://you2php.github.io/",
   "repository": "https://github.com/You2php/you2php",
-  "success_url": "/header.php",
+  "success_url": "/index.php",
   "env":{
     "APIKEY":{
       "description": "Youtube API V3 KEY",
@@ -15,19 +15,19 @@
     },
     "SITE_NAME":{
       "description": "站点名字",
-      "value": "Y2"
+      "value": "豆豆兵"
     },
     "TITLENAME":{
       "description": "TITLENAME",
-      "value": "Y2"
+      "value": "豆豆兵tube"
     },
     "EN2DEKEY":{
       "description": "加/解密密钥，随机字符串即可",
-      "value": "ZgN2tj1ETs"
+      "value": "jdajhfgljfadhgjha"
     },
     "EMAIL":{
       "description": "邮箱",
-      "value": ""
+      "value": "doudoubing@youtube.com"
     }
   }
 }
