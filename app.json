@@ -10,15 +10,15 @@
       "value": ""
     },
     "GJ_CODE":{
-      "description": "地区代码，HK,SG,US  ISO_3166-1",
+      "description": "地区代码HK=>香港,TW=>台湾,JP=>日本,KR=>韩国,US=>美国,FR=>法国,UK=>英国,DE=>德国,IN=>印度"
       "value": "US"
     },
     "SITE_NAME":{
-      "description": "站点名字",
+      "description": "浏览器上面显示站点名字",
       "value": "豆豆兵"
     },
     "TITLENAME":{
-      "description": "TITLENAME",
+      "description": "幼兔logo旁边的字",
       "value": "豆豆兵tube"
     },
     "EN2DEKEY":{
@@ -26,7 +26,7 @@
       "value": "jdajhfgljfadhgjha"
     },
     "EMAIL":{
-      "description": "邮箱",
+      "description": "邮箱随意",
       "value": "doudoubing@youtube.com"
     }
   }
