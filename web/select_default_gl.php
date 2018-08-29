@@ -14,8 +14,8 @@ $gls=array(
 "DE"=>"德国",
 "IN"=>"印度");
 //可以增加更多的选项
-$gl=(isset($_COOKIE['gl']) && $_COOKIE['gl'])?$_COOKIE['gl']:'HK';
-if(!isset($gls[$gl])){$gl='HK';}
+$gl=(isset($_COOKIE['gl']) && $_COOKIE['gl'])?$_COOKIE['gl']:'GJ_CODE';
+if(!isset($gls[$gl])){$gl='GJ_CODE';}
 $select[]="<select id='select_gl'>";
 foreach($gls as $k=>$v){
 	$is_selected=($k==$gl)?' selected ':'';
