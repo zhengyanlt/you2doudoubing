@@ -6,7 +6,8 @@ AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c
 
 **一键部署到heroku：**  [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-**豆豆兵频道：**https://www.youtube.com/channel/UClceV39J1Z_9D4_mHkBZrMg
+
+**豆豆兵频道：**  https://www.youtube.com/channel/UClceV39J1Z_9D4_mHkBZrMg
 
 
 参考来源：
