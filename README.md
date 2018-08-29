@@ -1,4 +1,4 @@
-
+如果对您有帮助请订阅豆豆兵频道：https://www.youtube.com/channel/UClceV39J1Z_9D4_mHkBZrMg
 **用于Ｈｅｒｏｋｕ以部署ＹｏｕＴｕ
 
 提供现成的YouTube API：
@@ -18,5 +18,11 @@
 
 ![image](https://user-images.githubusercontent.com/31188782/35389026-0b25d958-0211-11e8-92cf-53201231c061.png)
 
+
+参考来源：
+一：https://github.com/You2php/you2php
+二：https://github.com/onplus/you2php-heroku
+三：https://github.com/bclswl0827/youtube-mirror-site-bclswl
+四：https://github.com/hahadaba/YOU2PHP-GL-SELECTOR
 
 
