@@ -4,6 +4,9 @@
 AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c
 ```
 
+网页所账号密码在线生成：http://www.htaccesstools.com/htpasswd-generator/   
+
+
 **一键部署到heroku：**  [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 
