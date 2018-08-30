@@ -183,15 +183,15 @@ case '3':
              <input type="text" class="hidden" name="step" value="4" />
                 <label class="label font-b">Youtube API V3 KEY</label>
                 <input type="text" name="key" class="input" placeholder="AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c" />
+                <span class="padding-small-top">默认apiKEY：AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c   使用自己的API请参考<a href="https://you2php.github.io/doc/#getapi" class="text-dot "target="_blank">点这里</a></span>
                 
                 <label class="label font-b padding-small-top">国家代码</label>
                 <input type="text" class="input" name="gjcode" placeholder="US" />
                 
-                <span class="padding-small-top">这个填一个ISO3166标准的国际代码，默认建议填HK,一般为两位英文字母（如 台湾=TW，日本=JP）长度为2位。所填国家需要Youtube支持（可以从Youtube页面位置列表中看到），切记不能填CN，填CN或其他不支持代码将导致程序报错。如果你不知道某个国家的代码请访问<a href="http://doc.chacuo.net/iso-3166-1" class="text-dot "target="_blank">http://doc.chacuo.net/iso-3166-1</a></span>
+                <span class="padding-small-top">HK=>香港,TW=>台湾,JP=>日本,KR=>韩国,US=>美国,FR=>法国,UK=>英国,DE=>德国,IN=>印度  千万不要填CN  </span>
                 
                 <label class="label font-b padding-small-top">网站名字</label>
-                <input type="text" class="input"  name="title" placeholder="大爷常来玩儿啊" />
-                
+                <input type="text" class="input"  name="title" placeholder="大爷常来玩儿啊" />               
                 <label class="label font-b padding-small-top">站点名字</label>
                 <input type="text" class="input" name="sname" placeholder="DouDouTube" />
                 
