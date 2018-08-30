@@ -1,9 +1,14 @@
+
+
+
 **一键部署到heroku：**  [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 提供现成的YouTube API：
 ```
 AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c
 ```
+想要使用自己的youtube api可以在参考这里：https://you2php.github.io/doc/#getapi
+
 
 **htpasswd网页锁** 账号密码在线生成：http://www.htaccesstools.com/htpasswd-generator/   
 
@@ -11,15 +16,10 @@ AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c
 **豆豆兵频道：**  https://www.youtube.com/channel/UClceV39J1Z_9D4_mHkBZrMg
 
  
-  
-   
-    
-     
-     
-      
+        
        
         
-         
+       
           
           
 参考来源：
