@@ -181,27 +181,27 @@ case '3':
         <div>
             <form method="get">
              <input type="text" class="hidden" name="step" value="4" />
-                <label class="label font-b">Youtube API V3 KEY AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c</label>
-                <input type="text" name="key" class="input" placeholder="KEY" />
-                <span class="padding-small-top">默认AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c获取自己的<a href="https://you2php.github.io/doc" class="text-dot "target="_blank">点这里</a></span>
+                <label class="label font-b">Youtube API V3 KEY</label>
+                <input type="text" name="key" class="input" placeholder="AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c" />
+                
                 <label class="label font-b padding-small-top">国家代码</label>
-                <input type="text" class="input" name="gjcode" placeholder="根据国家代码获取不同国家的热门视频" />
+                <input type="text" class="input" name="gjcode" placeholder="US" />
                 
                 <span class="padding-small-top">这个填一个ISO3166标准的国际代码，默认建议填HK,一般为两位英文字母（如 台湾=TW，日本=JP）长度为2位。所填国家需要Youtube支持（可以从Youtube页面位置列表中看到），切记不能填CN，填CN或其他不支持代码将导致程序报错。如果你不知道某个国家的代码请访问<a href="http://doc.chacuo.net/iso-3166-1" class="text-dot "target="_blank">http://doc.chacuo.net/iso-3166-1</a></span>
                 
                 <label class="label font-b padding-small-top">网站名字</label>
-                <input type="text" class="input"  name="title" placeholder="Title名称" />
+                <input type="text" class="input"  name="title" placeholder="大爷常来玩儿啊" />
                 
                 <label class="label font-b padding-small-top">站点名字</label>
-                <input type="text" class="input" name="sname" placeholder="页面上将显示这个名字" />
+                <input type="text" class="input" name="sname" placeholder="DouDouTube" />
                 
                 <label class="label font-b padding-small-top">加/解密密钥</label>
-                <input type="text" class="input" name="edkey" placeholder="用于加密解密url，请填写一些杂乱无序的字符串." />
+                <input type="text" class="input" name="edkey" placeholder="jldjfakdjafndkhjdasfe" />
                 
-                <span class="padding-small-top">这个乱填一个字符串就可以，不需要记下来，建议长度10位以上。推荐使用<a href="https://randomkeygen.com/" class="text-dot" target="_blank">在线随机生成</a></span>
+                <span class="padding-small-top">这个乱填一个字符串就可以，不需要记下来，建议长度10位以上。 </span>
                 
                 <label class="label font-b padding-small-top">你的邮箱</label>
-                <input type="text" class="input" name="email" placeholder="请务必认真填写真实有效的Email地址" />
+                <input type="text" class="input" name="email" placeholder="xiaofufua@protonmail.com" />
                 
                 <div class="text-center padding-top">
                     <button class="button bg-red padding-left margin-bottom" onclick="javascript:history.back(-1);">上一步</button>
