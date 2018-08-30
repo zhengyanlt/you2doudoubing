@@ -183,12 +183,12 @@ case '3':
              <input type="text" class="hidden" name="step" value="4" />
                 <label class="label font-b">Youtube API V3 KEY</label>
                 <input type="text" name="key" class="input" placeholder="AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c" />
-                <span class="padding-small-top">默认apiKEY：AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c   使用自己的API请参考<a href="https://you2php.github.io/doc/#getapi" class="text-dot "target="_blank">点这里</a></span>
+                <span class="padding-small-top">默认apiKEY：AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c，使用自己的API请参考<a href="https://you2php.github.io/doc/#getapi" class="text-dot "target="_blank">点这里</a></span>
                 
                 <label class="label font-b padding-small-top">国家代码</label>
                 <input type="text" class="input" name="gjcode" placeholder="US" />
                 
-                <span class="padding-small-top">HK=>香港,TW=>台湾,JP=>日本,KR=>韩国,US=>美国,FR=>法国,UK=>英国,DE=>德国,IN=>印度  千万不要填CN  </span>
+                <span class="padding-small-top">HK→香港,TW→台湾,JP→日本,KR→韩国,US→美国,FR→法国,UK→英国,DE→德国,IN→印度，千万不要填CN。  </span>
                 
                 <label class="label font-b padding-small-top">网站名字</label>
                 <input type="text" class="input"  name="title" placeholder="大爷常来玩儿啊" />               
