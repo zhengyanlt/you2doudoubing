@@ -183,7 +183,7 @@ case '3':
              <input type="text" class="hidden" name="step" value="4" />
                 <label class="label font-b">Youtube API V3 KEY AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c</label>
                 <input type="text" name="key" class="input" placeholder="KEY" />
-                
+                <span class="padding-small-top">默认AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c获取自己的<a href="https://you2php.github.io/doc" class="text-dot "target="_blank">点这里</a></span>
                 <label class="label font-b padding-small-top">国家代码</label>
                 <input type="text" class="input" name="gjcode" placeholder="根据国家代码获取不同国家的热门视频" />
                 
