@@ -22,6 +22,16 @@ AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c
 
 **豆豆兵频道：**  https://www.youtube.com/channel/UClceV39J1Z_9D4_mHkBZrMg
 
+参考来源：
+
+FORK于：https://github.com/bclswl0827/youtube-mirror-site-bclswl
+
+参考于：https://github.com/onplus/you2php-heroku
+
+下一步：https://github.com/hahadaba/YOU2PHP-GL-SELECTOR
+
+原始项目：https://github.com/You2php/you2php
+
      'DZ' => '阿尔及利亚',
     'AR' => '阿根廷',
     'AE' => '阿拉伯联合酋长国',
@@ -119,12 +129,6 @@ AIzaSyARHJJDFtwb5wcnURwwJA3FQRrM16PF27c
        
           
           
-参考来源：
 
-FORK于：https://github.com/bclswl0827/youtube-mirror-site-bclswl
-
-参考于：https://github.com/onplus/you2php-heroku
-
-下一步：https://github.com/hahadaba/YOU2PHP-GL-SELECTOR
 
 
