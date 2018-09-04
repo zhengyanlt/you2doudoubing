@@ -5,5 +5,5 @@ define('GJ_CODE', 'HK');
 define('SITE_NAME', '猪宝宝油管');
 define('TITLENAME', 'YanTube');
 define('EN2DEKEY', 'lujianbupingyishenghou');
-define('EMAIL', 'xiaofufua@protonmail.com');
+define('EMAIL', 'zhengyanyx@gmail.com');
 ?>
